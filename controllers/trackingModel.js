@@ -14,23 +14,48 @@ const track = async (req, res) => {
 };
 
 const foodeaten = async (req, res) => {
-  let userid = req.params.userid;
-  let date = new Date(req.params.date);
-  let strDate =
-  (date.getMonth() + 1) + "/" +  date.getDate()    + "/" + date.getFullYear();
-console.log(strDate)
-  try {
-    let foods = await trackingModel
-      .find({ userId: userid, eatenDate: strDate })
-      .populate("userId")
-      .populate("foodId");
+  console.log("GET request received"); // Add this line to check if the request reaches here
+  const userId = req.params.userid;
+  const formattedDate = req.params.date.replace(/-/g, '/');
 
-    res.send(foods);
-    console.log(foods)
+  console.log("User ID:", userId);
+  console.log("Formatted Date Queried:", formattedDate);
+
+  try {
+    const foods = await trackingModel.find({ userId: userId, eatenDate: formattedDate });
+
+    if (foods.length === 0) {
+      console.log("No food records found for this date.");
+      return res.status(404).json({ message: "No food records found." });
+    }
+
+    console.log("Foods fetched:", foods);
+    res.status(200).json(foods);
   } catch (error) {
-    console.log(error);
-    res.status(500).send({ message: "Some problem in getting food" });
+    console.error("Error fetching data:", error);
+    res.status(500).send("Server error: Unable to fetch data");
   }
 };
+
+
+export const updateDateFormat = async (req, res) => {
+  try {
+    const trackings = await trackingModel.find();
+    trackings.forEach(async (doc) => {
+      const parts = doc.eatenDate.split('/');
+      if (parts.length === 3) {
+        const newDate = `${parts[1]}/${parts[0]}/${parts[2]}`;
+        await trackingModel.updateOne(
+          { _id: doc._id },
+          { $set: { eatenDate: newDate } }
+        );
+      }
+    });
+    res.status(200).send("Date format updated");
+  } catch (error) {
+    res.status(500).send("Error updating date format");
+  }
+};
+
 
 export default { track, foodeaten };
