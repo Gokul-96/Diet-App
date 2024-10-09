@@ -1,0 +1,212 @@
+[
+    {
+        "name": "rice",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1WDVSBAFsNxhA3uXSeddKWWFTwPzYI5mufREvGuKuu4cs51lMgbWU74kzyw&s",
+        "calories": "130",        
+        "protein": "2.7",         
+        "carbohydrate": "28.7",   
+        "fat": "0.3",             
+        "fibre":" 0.4"            
+      },
+      {
+        "name": "chapathi",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ-EFqdogXyG04nmTUsCLnIGGPSbE5S36RwZnUT_A8jQ&s",
+        "calories":  "267" ,
+        "protein":  "8.47" ,
+        "carbohydrate": "50.7" ,
+       "fat" : "2.58" ,
+       "fiber":  "5.3" 
+      },
+     
+    {
+        "name":"Chicken Curry",
+        "imageUrl":"https://as2.ftcdn.net/v2/jpg/06/46/09/17/1000_F_646091793_ZGkTH6nwTLeGA9jPp20vnFpnKLrZwCYy.jpg",
+        "calories" :"110" ,
+        "protein" : " 15",
+        "carbohydrate":"5"  ,
+        "fat" : "4",
+        "fibre":" 2"
+    },
+    {
+        "name":"Panner Tikka",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScvMVmC3x_ZSivINUuGPEIHcENLL-MQ42LzsaEYm-zhZd0XT7hV8YfLDogCw&s",
+        "calories" :"200" ,
+        "protein" :  "10",
+        "carbohydrate":"8"  ,
+        "fat" : "12" ,
+        "fibre": "3"
+    },
+    {
+        "name":"Chana Masala",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmoc3OsM3v0EAN43VA3_laGHC2Uh2JG37jUIjpK3okCA&s",
+        "calories" :"120" ,
+        "protein" :  "6",
+        "carbohydrate":"18" ,
+        "fat" : "5" ,
+        "fibre": "6"
+    },
+    {
+        "name":"Vegetable Briyani",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9wiCJLp9KFj8y0EiYJZoqkyh2bqh89KRowyvv4CxsNBBzbzPu8Ss7Px2Rw&s",
+        "calories" :"160" ,
+        "protein" :  "5",
+        "carbohydrate":"20" ,
+        "fat" : "7" ,
+        "fibre": "6"
+    },
+    {
+        "name":"Fish Curry",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9vO3F3Xqi13J_vKs9Vg4QE0qq9xFhp-ajJxs-Ty-Per5CiQz9LEb54X3nUA&s",
+        "calories" :"130" ,
+        "protein" :  "20",
+        "carbohydrate":"8",
+        "fat" : "6 ",
+        "fibre":" 1"
+    },
+    {
+        "name":"Palak Panner",
+        "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5N9lToyz3i_2PYRP9ckC9dftt2UB9sSjwPWGwKtgOf6M-kJ4Rs3aYfO2zng&s",
+        "calories" :"150" ,
+        "protein" :  "12",
+        "carbohydrate":"10" ,
+        "fat" : "8 ",
+        "fibre": "4"
+    },
+    {
+        "name" : "Soyabeans",
+        "imageUrl":"https://qph.cf2.quoracdn.net/main-qimg-4678e426100f37e57c83d473308b7342.webp",
+        "calories" :"446",
+        "protein":"20",
+        "carbohydrate":"30",
+        " fat":"1",
+        " fibre":"9"
+    },
+    {
+        "name" : "Chickpea (Chana)",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-59e35f3d571a808a20595fe1d06bf4a2.webp",
+        "calories" :"364",
+        "protein":"14",
+        "carbohydrate":"61",
+        " fat":"6",
+        " fibre":"12"
+    },
+    {
+        "name" : "Mung Bean",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-13063bbea0c7a121ef0851f58778036e.webp",
+        "calories" :"347",
+        "protein":"24",
+        "carbohydrate":"63",
+        "fat":"1",
+        "fibre":"16"
+    },
+    {
+        "name" : "Almonds",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-5b6b1e378e8c629e235d5d1fd4c7a75a-pjlq",
+        "calories" :"578",
+        "protein":"21",
+        "carbohydrate":"19",
+        "fat":"50",
+        "fibre":"12"
+    },
+    {
+        "name" : "Cottage cheese (fat free)",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-1dd1ede67ab793eec8c3cc81588c53ad.webp",
+        "calories" :"85",
+        "protein":"17",
+        "carbohydrate":"2",
+        " fat":"1",
+        " fibre":"0"
+    },
+    {
+        "name" : "Yoghurt",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-24fb022f8007eae1838b6d5311cc6a92.webp",
+        "calories" :"59",
+        "protein":"10",
+        "carbohydrate":"4",
+        "fat":"1",
+        "fibre":"0"
+    },
+    {
+        "name" : "Eggs",
+        "imageUrl" : "https://qph.cf2.quoracdn.net/main-qimg-2a3c538b41c4ed2fa4f7c63c25b018e7-lq",
+        "calories" :"142",
+        "protein":"12",
+        "carbohydrate":"1",
+        "fat":"10",
+        "fibre":"0"
+    },
+    {
+        "name" : "Upma",
+        "imageUrl" : "https://vismaifood.com/storage/app/uploads/public/3d0/b25/6af/thumb__700_0_0_0_auto.jpg",
+        "calories" :"209",
+        "protein":"8",
+        "carbohydrate":"45",
+        "fat":"4",
+        "fibre":"2"
+    },
+    {
+        "name" : "Pongal",
+        "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREm0FFk-g2f2UtHgTkw4H4ZzuO6sG3wEm6YbtkjtsnwMr53W4pUgi6axJbuw&s",
+        "calories" :"131",
+        "protein":"4",
+        "carbohydrate":"15",
+        " fat":"2",
+        " fibre":"1"
+    },
+    {
+        "name" : "Plain Dosa ",
+        "imageUrl" : "https://rasam.com.au/img/Plain-Dosa.jpg",
+        "calories" :"212",
+        "protein":"5",
+        "carbohydrate":"42",
+        "fat":"2",
+        "fibre":"1"
+    },
+    {
+        "name" : "Rasam rice",
+        "imageUrl" : "https://moonrice.net/wp-content/uploads/2021/01/MilaguJeeraTomatoRasam.jpg",
+        "calories" :"49",
+        "protein":"3",
+        "carbohydrate":"7",
+        "fat":"1",
+        "fibre":"1"
+    },
+   
+    {
+        "name" : "Dal ",
+        "calories" : "339",
+        "imageUrl" :"https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/dal-fry-1152x1536.jpg",
+        "protein":"25",
+        "carbohydrate":"58",
+        " fat":"",
+        " fibre":"27"
+    },
+    {
+        "name" : "Lettuce Salad",
+        "imageUrl" : "https://www.enjoyyourcooking.com/wp-content/uploads/2013/02/lettuce-tomato-cucumber-salad.jpg",
+        "calories" :"63",
+        "protein":"1",
+        "carbohydrate":"3",
+        " fat":"0.15",
+        " fibre":"1"
+    },
+    {
+        "name" : "Buttermilk",
+        "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXQ855pl0Gn58NC62Sn-xHj8cMlLdJfAz3bPTKhhRWBxQ4Rw7OeHv7Kb7zQw&s",
+        "calories" :"40",
+        "protein":"4",
+        "carbohydrate":"5",
+        "fat":"1",
+        "fibre":"0.2"
+    },
+     {
+        "name" : "Avial",
+        "imageUrl" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSff6AWPzReUvYFwnOyk3MjyvqaFEHa5gdjGKIftU8l0X0DgsbQLLJ6rPUIRg&s",
+        "calories" :"160",
+        "protein":"4",
+        "carbohydrate":"25",
+        " fat":"16",
+        " fibre":"5"
+    }
+
+]
